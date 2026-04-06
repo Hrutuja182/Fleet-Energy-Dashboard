@@ -37,7 +37,7 @@ This dashboard provides a data-driven solution for better decision-making.
 # Configuration 
  1.Clone the repo
  # git clone https://github.com/your-username/fleet-energy-dashboard.git
- # cd fleet-energy-dashboard
+ # cd fleet_dashboard
 
  2️.Install dependencies
  # npm install

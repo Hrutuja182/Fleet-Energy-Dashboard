@@ -10,7 +10,8 @@ import Charts from "../components/charts";
 export default function Dashboard(){
      const [selectedShip, setSelectedShip] = useState("All");
 
-     const filteredData= selectedShip === "All" ? mockData : mockData.filter(d=> d.ship.trim().toLowerCase() === selectedShip.trim().toLowerCase());
+     const filteredData= selectedShip === "All" ? mockData : mockData.filter(
+        d=> d.ship.trim().toLowerCase() === selectedShip.trim().toLowerCase());
 
      return(
         <div className="p-6 grid gap-6">
